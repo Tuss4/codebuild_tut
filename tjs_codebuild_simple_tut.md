@@ -15,7 +15,7 @@ In our project configuration feel free to use whatever name and or description y
 
 In the source section, we'll want to set our provider to "GitHub". In order for CodeBuild to access your repositories, you will need to grant it OAuth access to your GitHub account. Once access has been granted, enter your repository's URL into the provided text box.
 
-![03](03.png)]
+![03](03.png)
 
 For the environment, to make things simpler, we chose to go with an AWS managed Docker image. Ubuntu for the OS (#DebianFTW) with a Python Runtime (Python 3.7.1!!!). For the image version we chose to use the latest image, however if you would like to isolate your dependencies, you don't have to select that option (for fear of things breaking). Create a new service role and you should be good to go in the environment section!
 
